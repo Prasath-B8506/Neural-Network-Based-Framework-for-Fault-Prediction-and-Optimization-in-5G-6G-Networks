@@ -133,14 +133,17 @@ The framework calculates:
 │   └── generate_network_report.m
 │
 ├── results/
-│   ├── network_topology.png
-│   ├── fault_prediction.png
-│   ├── performance_comparison.png
-│   └── confusion_matrix.png
+│   ├── network-topology.png
+│   ├── fault-prediction-output.png
+│   ├── performance-comparison.png
+│   ├── confusion-matrix.png
+│   └── README.md
 │
-└── docs/
-    └── GNN-Paper.pdf
-```
+├── docs/
+│   ├── Digital-Twin-GNN-5G-6G-Paper.pdf
+│   └── README.md
+│
+└── README.md
 
 ## 📊 Results
 
