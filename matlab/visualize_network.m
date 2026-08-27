@@ -22,4 +22,3 @@ highlight(q, faultyNodes, 'NodeColor','g');
 title('Optimized Network');
 
 end
-```
