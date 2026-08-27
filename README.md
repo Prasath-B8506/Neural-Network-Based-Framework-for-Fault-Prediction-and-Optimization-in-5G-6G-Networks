@@ -144,16 +144,70 @@ The framework calculates:
 
 ## 📊 Results
 
-The uploaded simulation report includes an example run with:
+The MATLAB simulation evaluates the network before and after optimization.
 
-* 15 simulated network nodes
-* Predicted fault nodes
-* Average latency comparison
-* Total bandwidth comparison
-* Confusion matrix
-* Accuracy, precision, and recall metrics
+### Network Topology
 
-The supplied MATLAB implementation calculates these values directly from the simulated network states.
+**Original Network → Digital Twin with Faults → Optimized Network**
+
+![Network Topology](results/network-topology.png)
+
+### Fault Prediction & Telemetry
+
+The current MATLAB implementation uses a simplified latency-threshold method to identify predicted faulty nodes.
+
+![Fault Prediction Output](results/fault-prediction-output.png)
+
+### Performance Comparison
+
+Example output from the supplied MATLAB implementation:
+
+![Performance Comparison](results/performance-comparison.png)
+
+### Fault Prediction Evaluation
+
+Example confusion-matrix output from the supplied MATLAB implementation:
+
+![Confusion Matrix](results/confusion-matrix.png)
+
+## ▶️ How to Run
+
+### Requirements
+
+* MATLAB
+* MATLAB Graph Functions / Graph support
+
+### Steps
+
+1. Open MATLAB.
+2. Download or clone this repository.
+3. Open the `matlab` folder.
+4. Set the `matlab` folder as the working directory.
+5. Run the main script:
+
+```matlab
+main
+```
+
+### Workflow
+
+```text
+Network Generation
+        ↓
+Digital Twin Simulation
+        ↓
+Graph Data Extraction
+        ↓
+Fault Prediction
+        ↓
+Network Optimization
+        ↓
+Visualization
+        ↓
+Report Generation
+```
+
+
 
 ## 📈 Example Performance Output
 
